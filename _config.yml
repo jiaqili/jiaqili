@@ -4,5 +4,5 @@ markdown: redcarpet
 pygments: true
 permalink: date
 author: Jiaqi Li
-exclude: [s3_website.yml README.md]
+exclude: [s3_website.yml, README.md]
 timezone: America/New_York

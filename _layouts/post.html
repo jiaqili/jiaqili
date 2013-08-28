@@ -3,7 +3,12 @@ layout: default
 ---
 
 <div class="post">
-<div class="post-title">{{ page.title }}</div>
+
+    {% if page.link %}
+      <div class="post-title"><a href="{{ page.link }}">{{ page.title }}&rarr;</a></div>
+    {% else %}
+      <div class="post-title">{{ page.title }}</div>
+    {% endif %}
 
 <p>{{ content }}</p>
 
