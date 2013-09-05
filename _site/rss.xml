@@ -1,20 +1,67 @@
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jiaqi Li</title>
+    <title>jiaqili.com</title>
     <link>http://www.jiaqili.com</link>
     <atom:link href="http://http://www.jiaqili.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>RSS feed for Jiaqi Li</description>
+    <description>RSS feed for jiaqili.com</description>
     <language>en-us</language>
-    <pubDate>Fri, 30 Aug 2013 14:02:54 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Aug 2013 14:02:54 -0400</lastBuildDate>
+    <pubDate>Thu, 05 Sep 2013 05:05:02 -0400</pubDate>
+    <lastBuildDate>Thu, 05 Sep 2013 05:05:02 -0400</lastBuildDate>
  
+    
+    <item>
+      <title>Samsung Galaxy Gear</title>
+      <link>http://www.jiaqili.com/2013/09/04/galaxy-gear.html</link>
+      <pubDate>Wed, 04 Sep 2013 20:19:00 -0400</pubDate>
+      <description><p>The Verge:</p>
+
+<blockquote>
+<p>Samsung promises &quot;about a day&quot; of endurance from the Gear, but by the end of our briefing with the company, the cameras on most of its demo units were refusing to turn on due to the watches running low on power. </p>
+</blockquote>
+
+<p>$300 for this?</p>
+</description>
+    </item>
+    
+    <item>
+      <title>Nintendo</title>
+      <link>http://www.jiaqili.com/2013/09/03/nintendo.html</link>
+      <pubDate>Tue, 03 Sep 2013 21:15:00 -0400</pubDate>
+      <description><p><a href="http://daringfireball.net/2013/09/nintendo_in_motion" title="Daring Fireball: Nintendo in Motion">John Gruber</a>:</p>
+
+<blockquote>
+<p>The world has changed in the last five years, and hundreds of millions of people now carry powerful, well-made, touchscreen computers with them everywhere they go.</p>
+</blockquote>
+
+<p><a href="http://hypercritical.co/2013/09/02/nintendo-in-crisis" title="Hypercritical.co: Nintendo in Crisis">John Siracusa</a>:</p>
+
+<blockquote>
+<p>As long as there continues to be a market for devices that are primarily designed to play games, then it’s possible for Nintendo to live to fight another day.</p>
+</blockquote>
+
+<p>Is there a big enough market for dedicated gaming devices to sustain Nintendo?</p>
+</description>
+    </item>
+    
+    <item>
+      <title>Dark Patterns</title>
+      <link>http://www.jiaqili.com/2013/08/30/dark-patterns.html</link>
+      <pubDate>Fri, 30 Aug 2013 14:15:00 -0400</pubDate>
+      <description><p>The Verge:</p>
+
+<blockquote>
+<p>A dark pattern is a user interface carefully crafted to trick users into doing things they might not otherwise do, such as buying insurance with their purchase or signing up for recurring bills. </p>
+</blockquote>
+
+<p>Some of this is bad design, some of it is intentional.</p>
+</description>
+    </item>
     
     <item>
       <title>Why do Scalpers Exist?</title>
       <link>http://www.jiaqili.com/2013/08/28/why-do-scalpers-exist.html</link>
       <pubDate>Wed, 28 Aug 2013 20:46:00 -0400</pubDate>
-      <author>Jiaqi Li</author>
       <description><p>Priceonomics:</p>
 
 <blockquote>
@@ -29,7 +76,6 @@
       <title>Sci-Fi Suburbia</title>
       <link>http://www.jiaqili.com/2013/08/28/sci-fi-suburbia.html</link>
       <pubDate>Wed, 28 Aug 2013 20:36:00 -0400</pubDate>
-      <author>Jiaqi Li</author>
       <description><p>The Verge:</p>
 
 <blockquote>

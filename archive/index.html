@@ -10,15 +10,18 @@ title: Archive
 
     {% unless post.next %}
       </ul>
-      {{ post.date | date: '%Y' }}
+      {{ post.date | date: '%B %Y' }}
       <ul>
     {% else %}
       {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 
-      {% if year != nyear %}
+      {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+      {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+
+      {% if year != nyear or month != nmonth %}
         </ul>
-          {{ post.date | date: '%Y' }}
+          <br>{{ post.date | date: '%B %Y' }}</br>
         <ul>
       {% endif %}
     {% endunless %}

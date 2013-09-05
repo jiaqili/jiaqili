@@ -1,6 +1,8 @@
 name: Jiaqi Li
 url: http://www.jiaqili.com
 markdown: redcarpet
+redcarpet:
+  extensions: [hard_wrap]
 pygments: true
 permalink: date
 author: Jiaqi Li

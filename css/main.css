@@ -1,6 +1,6 @@
 body {
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -20,6 +20,9 @@ blockquote p {
   -webkit-margin-after: 1.5em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.25;
   color: rgb(192,192,192);
 }
 
@@ -31,7 +34,7 @@ blockquote p {
 }
 
 .title {
-  font: normal normal 48px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+  font: normal normal 40px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
   color: #000000;
 }
 
@@ -43,7 +46,7 @@ blockquote p {
 }
 
 .post-title {
-  font-size: 36px;
+  font-size: 28px;
   color: rgb(102, 102, 102);
 }
 
@@ -104,6 +107,6 @@ blockquote p {
   }
 
   .post-title {
-  font-size: 32px;
+  font-size: 24px;
   }
 }
