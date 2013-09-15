@@ -6,9 +6,82 @@
     <atom:link href="http://http://www.jiaqili.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>RSS feed for jiaqili.com</description>
     <language>en-us</language>
-    <pubDate>Thu, 05 Sep 2013 05:05:02 -0400</pubDate>
-    <lastBuildDate>Thu, 05 Sep 2013 05:05:02 -0400</lastBuildDate>
+    <pubDate>Sun, 15 Sep 2013 10:12:19 -0400</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2013 10:12:19 -0400</lastBuildDate>
  
+    
+    <item>
+      <title>Moto X - Made in America</title>
+      <link>http://www.jiaqili.com/2013/09/14/motox-made-in-america.html</link>
+      <pubDate>Sat, 14 Sep 2013 12:15:00 -0400</pubDate>
+      <description><p>The Verge:</p>
+
+<blockquote>
+<p>Made in America: a look inside Motorola&#39;s Moto X factory</p>
+
+<p>An old Nokia facility has been resurrected to crank out 100,000 new smartphones per week</p>
+</blockquote>
+
+<p>Although most of the components are actually manufactured in Asian and shipped to Texas, this piece offers a fascinating look inside Google/Motorola&#39;s smartphone factory.</p>
+</description>
+    </item>
+    
+    <item>
+      <title>iPhone Supply Chain</title>
+      <link>http://www.jiaqili.com/2013/09/13/iphone-supply-chain.html</link>
+      <pubDate>Fri, 13 Sep 2013 23:00:00 -0400</pubDate>
+      <description><p>Bloomberg:</p>
+
+<blockquote>
+<p>Apple first coordinates flights and trucks to move components from suppliers to assembly plants in China. Teams from sales, marketing, operations and finance collaborate to forecast how many devices the company expects to sell.</p>
+
+<p>The internal estimate is crucial. An example of how that can go wrong is Microsoft&#39;s recent <a href="http://www.bloomberg.com/news/2013-07-30/microsoft-sold-853-million-in-surface-tablets.html">$900 million writedown</a> because of unsold Surface tablets.</p>
+
+<p>Before Apple&#39;s formal unveiling on stage, iPhones are shipped to distribution centers around the world, including Australia, China, the Czech Republic, Japan, Singapore, the U.K. and the U.S. FedEx ships Apple handsets to the U.S. mainly using Boeing 777s... The 777s can carry about 450,000 iPhones and cost about $242,000 to charter, with fuel accounting for more than half the expense.</p>
+</blockquote>
+
+<p>All the more impressive because of the massive number of SKUs (stock-keeping-units) this year.</p>
+
+<ul>
+<li>iPhone 4 (still sold in China) - 2 (2 colors)</li>
+<li>iPhone 4s - 2 (2 colors)</li>
+<li>iPhone 5c - 50 (5 colors x 2 storage capacities x 5 LTE bands)</li>
+<li>iPhone 5s - 45 (3 colors x 3 storage capacities x 5 LTE bands)</li>
+</ul>
+
+<p>Total of 99 unique iPhones to forecast and manage production/inventory.</p>
+</description>
+    </item>
+    
+    <item>
+      <title>Riptide</title>
+      <link>http://www.jiaqili.com/2013/09/09/riptide.html</link>
+      <pubDate>Mon, 09 Sep 2013 19:15:00 -0400</pubDate>
+      <description><p>Nieman Journalism Lab:</p>
+
+<blockquote>
+<p>An oral history of the epic collision between journalism and digital technology, from 1980 to the present featuring over 60 interviews with </p>
+</blockquote>
+
+<p>A fantastic, 15-chapter oral history of the collision between journalism and technology. </p>
+</description>
+    </item>
+    
+    <item>
+      <title>Yahoo's New Logo</title>
+      <link>http://www.jiaqili.com/2013/09/09/yahoo.html</link>
+      <pubDate>Mon, 09 Sep 2013 19:00:00 -0400</pubDate>
+      <description><p>Glenn Fleishman:</p>
+
+<blockquote>
+<p>[Marissa] Mayer clearly appreciates the expertise and insight of folks who write code at Yahoo, run the servers, handle human resources, and the like. But, apparently, sees graphic design as something she is equally qualified to participate in without domain knowledge. </p>
+
+<p>The Yahoo logo design process represents the worst aspects of someone who doesn&#39;t understand or accept that type design, typography, and graphic design in general are professions that benefit from years or decades of training.</p>
+</blockquote>
+
+<p>Ouch. A sharply critical and very insightful piece on the new Yahoo logo.</p>
+</description>
+    </item>
     
     <item>
       <title>Samsung Galaxy Gear</title>
