@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title }}</title>
+
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'
+    rel='stylesheet' type='text/css'>
+
+  <link href="/css/up.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif] -->
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <script language="JavaScript">
+
+var randnum = Math.random();
+var inum = 3;
+var rand1 = Math.round(randnum * (inum-1)) + 1;
+images = new Array;
+images[1] = "chicago";
+images[2] = "nyc";
+images[3] = "philadelphia";
+  
+var image = 'https://dl.dropboxusercontent.com/u/211196/' + images[rand1];
+
+if (screen.width <480 || screen.height <480)
+{
+  image += '_vt';
+}
+
+image += '.jpg';
+
+</script>
+
+
+</head>
+
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">{{ site.title }}</a>
+      <div class="nav-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav pull-right hidden-print lowercase">
+          <li>
+            <a class="hidden-sm" title="About me" href="/about">
+              about
+            </a>
+            <a class="visible-sm" title="About me" href="/about">
+              about
+            </a>
+          </li>
+          <li>
+            <a class="hidden-sm" title="Archive" href="/archive">
+              archive
+            </a>
+            <a class="visible-sm" title="Archive" href="/archive">
+              archive
+            </a>
+          </li>
+
+          <li>
+            <a class="hidden-sm" title="Facebook" href="http://facebook.com/{{ site.author.facebook}}">
+            <i class="icon icon-facebook icon"></i></a>
+            <a class="visible-sm" title="Facebook" href="http://facebook.com/{{ site.author.facebook}}">
+            facebook</a> 
+
+            <a class="visible-sm"href="http://twitter.com/{{ site.author.twitter}}">
+            twitter</a>
+
+            <a class="visible-sm"href="http://www.linkedin.com/in/{{ site.author.linkedin }}">
+              linkedin</a>
+          </li>
+          <li>
+            <a class="hidden-sm" href="http://twitter.com/{{ site.author.twitter}}">
+            <i class="icon icon-twitter icon"></i></a>
+          </li>
+          <li>
+            <a class="hidden-sm" href="http://www.linkedin.com/in/{{ site.author.linkedin }}">
+              <i class="icon icon-linkedin icon"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+      </div>
+  </div>
+    <script language="JavaScript">
+      document.write('<div class="cover" style="background-image: url(' + image + ');"> </div>')  
+    </script>
+    <noscript>
+      <div class="cover" style="background-image: url('https://dl.dropboxusercontent.com/u/211196/nyc.jpg')"> </div>
+    </noscript>
+   
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <div id="footer" class="hidden-print">
+    <section class="masthead">
+      <div class="container" align="center">
+
+        <p>© 2013 Jiaqi Li.</p>
+
+      </div>
+    </section>
+  </div>
+  {% include analytics.html %}
+</body>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="/js/up.js"></script>
+</html>

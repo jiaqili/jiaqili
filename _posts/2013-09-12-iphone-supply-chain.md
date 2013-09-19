@@ -1,11 +1,11 @@
 ---
 layout: post
 title: iPhone Supply Chain
-date: 2013-09-13 23:00:00 -0400
+date: 2013-09-13 19:00:00 -0400
 day: 2013-09-13
 link: http://www.bloomberg.com/news/2013-09-11/the-iphone-s-secret-flights-from-china-to-your-local-apple-store.html
 ---
-Bloomberg:
+[Bloomberg](http://www.bloomberg.com/news/2013-09-11/the-iphone-s-secret-flights-from-china-to-your-local-apple-store.html):
 >Apple first coordinates flights and trucks to move components from suppliers to assembly plants in China. Teams from sales, marketing, operations and finance collaborate to forecast how many devices the company expects to sell.
 >
 >The internal estimate is crucial. An example of how that can go wrong is Microsoft's recent [$900 million writedown](http://www.bloomberg.com/news/2013-07-30/microsoft-sold-853-million-in-surface-tablets.html) because of unsold Surface tablets.

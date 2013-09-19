@@ -1,18 +1,32 @@
 ---
-layout: default
+layout: layout
 ---
 
-<div class="post">
+<section class="content">
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
 
-    {% if page.link %}
-      <div class="post-title"><a href="{{ page.link }}">{{ page.title }}&rarr;</a></div>
-    {% else %}
-      <div class="post-title">{{ page.title }}</div>
-    {% endif %}
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
 
-<p>{{ content }}</p>
+  {{ content }}
+  <div class="pull"></div>
+</section>
+<ul class="post pager">
 
-<div class="post-timestamp">{{ page.date | date: "%B %d, %Y"}}</div>
-</div>
-<div class="spacer"> <hr></div>
+  {% if page.previous %}
+    <li class="previous"><a href="{{page.previous.url}}">&larr; Older: {{ page.previous.title}}</a></li>
+  {% else %}
+     <li class="previous disabled"><a href="/">&larr; No Older Posts</a></li>
+  {% endif %}
 
+
+
+    {% if page.next %}
+      <li class="next"><a href="{{ page.next.url }}">Newer: {{ page.next.title}} &rarr;</a></li>
+     {% else %}
+       <li class="next disabled"><a href="">No Newer Posts&rarr;</a></li>
+     {% endif %}
+   </ul>

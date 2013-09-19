@@ -1,16 +1,50 @@
 ---
-layout: default
+layout: layout
 title: Jiaqi Li
 ---
+<!--
+<section class="content">
+  <ul class="listing">
+    {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+-->
 
-
-  {% for post in site.posts limit:20 %}
+  {% for post in paginator.posts %}
     
     {% include listed-post.html %}
 
     {% if post.day != post.previous.day %}
       <div class="post-timestamp">{{ post.date | date: "%B %d, %Y"}}</div>
-      <div class="spacer"> <hr></div>
+      {% if post == paginator.posts.last and paginator.total_posts <= paginator.per_page %}
+        {% else %}
+          <div class="spacer"> <hr></div>
+        {% endif %}
     {% endif%}
 
   {% endfor %}
+
+  {% if paginator.total_posts > paginator.per_page %}
+   <ul class="pager">
+
+     {% if paginator.next_page %}
+       <li class="previous"><a href="{{paginator.next_page_path}}">&larr; Older Posts</a></li>
+       {% else %}
+       <li class="previous disabled"><a href="/">&larr; No Older Posts</a></li>
+     {% endif %}
+
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %} 
+       <li class="next"><a href="/">Newer Posts&rarr;</a></li>
+      {% else %}
+        <li class="next"><a href="{{ paginator.previous_page_path }}">Newer Posts&rarr;</a></li>
+      {% endif %}
+     {% else %}
+       <li class="next disabled"><a href="">No Newer Posts&rarr;</a></li>
+     {% endif %}
+   </ul>
+   {% endif %}
