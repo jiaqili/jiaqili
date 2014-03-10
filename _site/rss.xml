@@ -6,14 +6,35 @@
     <atom:link href="http://http://www.jiaqili.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>RSS feed for jiaqili.com</description>
     <language>en-us</language>
-    <pubDate>Wed, 18 Sep 2013 22:23:19 -0400</pubDate>
-    <lastBuildDate>Wed, 18 Sep 2013 22:23:19 -0400</lastBuildDate>
+    <pubDate>Sun, 01 Dec 2013 12:04:54 -0500</pubDate>
+    <lastBuildDate>Sun, 01 Dec 2013 12:04:54 -0500</lastBuildDate>
  
+    
+    <item>
+      <title>Businessweek Interviews Apple Execs</title>
+      <link>/2013/09/19/apple-execs-businessweek.html</link>
+      <pubDate>Thu, 19 Sep 2013 13:15:00 +0000</pubDate>
+      <description><p><a href="http://www.businessweek.com/articles/2013-09-19/cook-ive-and-federighi-on-the-new-iphone-and-apples-once-and-future-strategy#r=hp-lst">Businessweek</a>:</p>
+
+
+
+
+<blockquote><p>Tim Cook: &ldquo;I think [Nokia] is a reminder to everyone in business that you have to keep innovating and that to not innovate is to die.&rdquo;</p>
+
+<p>Craig Federighi: &ldquo;New? New is easy. Right is hard.&rdquo;</p></blockquote>
+
+
+
+
+<p>Good interview with Apple CEO Tim Cook, SVP of Design Jony Ive, and SVP of Software Engineering Craig Federighi.</p>
+
+</description>
+    </item>
     
     <item>
       <title>Moto X - Made in America</title>
       <link>/2013/09/14/motox-made-in-america.html</link>
-      <pubDate>Sat, 14 Sep 2013 12:15:00 -0400</pubDate>
+      <pubDate>Sat, 14 Sep 2013 16:15:00 +0000</pubDate>
       <description><p><a href="http://www.bloomberg.com/news/2013-09-11/the-iphone-s-secret-flights-from-china-to-your-local-apple-store.html">The Verge</a>:</p>
 
 
@@ -34,7 +55,7 @@
     <item>
       <title>iPhone Supply Chain</title>
       <link>/2013/09/13/iphone-supply-chain.html</link>
-      <pubDate>Fri, 13 Sep 2013 19:00:00 -0400</pubDate>
+      <pubDate>Fri, 13 Sep 2013 22:59:00 +0000</pubDate>
       <description><p><a href="http://www.bloomberg.com/news/2013-09-11/the-iphone-s-secret-flights-from-china-to-your-local-apple-store.html">Bloomberg</a>:</p>
 
 
@@ -72,7 +93,7 @@
     <item>
       <title>Riptide</title>
       <link>/2013/09/09/riptide.html</link>
-      <pubDate>Mon, 09 Sep 2013 18:15:00 -0400</pubDate>
+      <pubDate>Mon, 09 Sep 2013 22:15:00 +0000</pubDate>
       <description><p><a href="http://www.niemanlab.org/riptide/">Nieman Journalism Lab</a>:</p>
 
 
@@ -91,7 +112,7 @@
     <item>
       <title>Yahoo's New Logo</title>
       <link>/2013/09/09/yahoo.html</link>
-      <pubDate>Mon, 09 Sep 2013 18:00:00 -0400</pubDate>
+      <pubDate>Mon, 09 Sep 2013 22:00:00 +0000</pubDate>
       <description><p><a href="http://glog.glennf.com/blog/2013/9/6/yahoos-logo-reveals-the-worst-aspects-of-engineering-mindset">Glenn Fleishman</a>:</p>
 
 
@@ -112,7 +133,7 @@
     <item>
       <title>Samsung Galaxy Gear</title>
       <link>/2013/09/04/galaxy-gear.html</link>
-      <pubDate>Wed, 04 Sep 2013 18:19:00 -0400</pubDate>
+      <pubDate>Wed, 04 Sep 2013 22:19:00 +0000</pubDate>
       <description><p><a href="http://www.theverge.com/2013/9/4/4692824/samsung-galaxy-gear-features-specs-release-date-price">The Verge</a>:</p>
 
 
@@ -131,7 +152,7 @@
     <item>
       <title>Nintendo</title>
       <link>/2013/09/03/nintendo.html</link>
-      <pubDate>Tue, 03 Sep 2013 18:15:00 -0400</pubDate>
+      <pubDate>Tue, 03 Sep 2013 22:15:00 +0000</pubDate>
       <description><p><a href="http://daringfireball.net/2013/09/nintendo_in_motion" title="Daring Fireball: Nintendo in Motion">John Gruber</a>:</p>
 
 
@@ -160,7 +181,7 @@
     <item>
       <title>Dark Patterns</title>
       <link>/2013/08/30/dark-patterns.html</link>
-      <pubDate>Fri, 30 Aug 2013 14:15:00 -0400</pubDate>
+      <pubDate>Fri, 30 Aug 2013 18:15:00 +0000</pubDate>
       <description><p><a href="http://www.theverge.com/2013/8/29/4640308/dark-patterns-inside-the-interfaces-designed-to-trick-you">The Verge</a>:</p>
 
 
@@ -179,7 +200,7 @@
     <item>
       <title>Why do Scalpers Exist?</title>
       <link>/2013/08/28/why-do-scalpers-exist.html</link>
-      <pubDate>Wed, 28 Aug 2013 18:46:00 -0400</pubDate>
+      <pubDate>Wed, 28 Aug 2013 22:46:00 +0000</pubDate>
       <description><p><a href="http://priceonomics.com/why-do-scalpers-exist/">Priceonomics</a>:</p>
 
 
@@ -195,7 +216,7 @@
     <item>
       <title>Sci-Fi Suburbia</title>
       <link>/2013/08/28/sci-fi-suburbia.html</link>
-      <pubDate>Wed, 28 Aug 2013 18:36:00 -0400</pubDate>
+      <pubDate>Wed, 28 Aug 2013 22:36:00 +0000</pubDate>
       <description><p><a href="http://www.theverge.com/2013/8/27/4664842/sweden-reimagined-what-if-sci-fi-tech-were-real">The Verge</a>:</p>
 
 

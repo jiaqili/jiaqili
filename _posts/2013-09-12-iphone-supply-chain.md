@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iPhone Supply Chain
-date: 2013-09-13 19:00:00 -0400
+date: 2013-09-13 18:59:00 -0400
 day: 2013-09-13
 link: http://www.bloomberg.com/news/2013-09-11/the-iphone-s-secret-flights-from-china-to-your-local-apple-store.html
 ---
