@@ -4,7 +4,7 @@ permalink: date
 rdiscount:
   extensions: [smart]
 title : Jiaqi Li
-production_url : http://www.jiaqili.com
+production_url : http://jiaqili.com
 analytics: UA-3936326-3
 exclude: [s3_website.yml, readme.markdown, CNAME, Gemfile, Gemfile.lock, LICENSE, Makefile, package.json, Rakefile]
 timezone: America/New_York

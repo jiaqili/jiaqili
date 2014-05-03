@@ -20,30 +20,23 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif] -->
 
-  <link rel="shortcut icon" href="/favicon.ico">
-
   <script language="JavaScript">
+    var rand1 = Math.floor(Math.random() * 3);
+    images = new Array;
+    images[0] = "chicago";
+    images[1] = "nyc";
+    images[2] = "philadelphia";
+      
+    var image = '/assets/' + images[rand1];
 
-var randnum = Math.random();
-var inum = 3;
-var rand1 = Math.round(randnum * (inum-1)) + 1;
-images = new Array;
-images[1] = "chicago";
-images[2] = "nyc";
-images[3] = "philadelphia";
-  
-var image = 'https://dl.dropboxusercontent.com/u/211196/' + images[rand1];
+    if (screen.width <480 || screen.height <480)
+    {
+      image += '_vt';
+    }
 
-if (screen.width <480 || screen.height <480)
-{
-  image += '_vt';
-}
+    image += '.jpg';
 
-image += '.jpg';
-
-</script>
-
-
+  </script>
 </head>
 
 <body>
@@ -103,7 +96,7 @@ image += '.jpg';
       document.write('<div class="cover" style="background-image: url(' + image + ');"> </div>')  
     </script>
     <noscript>
-      <div class="cover" style="background-image: url('https://dl.dropboxusercontent.com/u/211196/nyc.jpg')"> </div>
+      <div class="cover" style="background-image: url('/assets/nyc.jpg')"> </div>
     </noscript>
    
 

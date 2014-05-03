@@ -20,30 +20,23 @@
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif] -->
 
-  <link rel="shortcut icon" href="/favicon.ico">
-
   <script language="JavaScript">
+    var rand1 = Math.floor(Math.random() * 3);
+    images = new Array;
+    images[0] = "chicago";
+    images[1] = "nyc";
+    images[2] = "philadelphia";
+      
+    var image = '/assets/' + images[rand1];
 
-var randnum = Math.random();
-var inum = 3;
-var rand1 = Math.round(randnum * (inum-1)) + 1;
-images = new Array;
-images[1] = "chicago";
-images[2] = "nyc";
-images[3] = "philadelphia";
-  
-var image = 'https://dl.dropboxusercontent.com/u/211196/' + images[rand1];
+    if (screen.width <480 || screen.height <480)
+    {
+      image += '_vt';
+    }
 
-if (screen.width <480 || screen.height <480)
-{
-  image += '_vt';
-}
+    image += '.jpg';
 
-image += '.jpg';
-
-</script>
-
-
+  </script>
 </head>
 
 <body>
@@ -103,7 +96,7 @@ image += '.jpg';
       document.write('<div class="cover" style="background-image: url(' + image + ');"> </div>')  
     </script>
     <noscript>
-      <div class="cover" style="background-image: url('https://dl.dropboxusercontent.com/u/211196/nyc.jpg')"> </div>
+      <div class="cover" style="background-image: url('/assets/nyc.jpg')"> </div>
     </noscript>
    
 
@@ -113,6 +106,7 @@ image += '.jpg';
   <p>Jiaqi works for <a href="http://www.ogilvy.com">Ogilvy & Mather</a> in New York in the analytics department using SAS, SQL, R, as well as various web analytics tools.</p>
   <p>When not working, he's travelling, cooking, or learning new things.</p>
   <p>He lives with his wife in northern New Jersey.</p>
+  <h6><a href="credits.html">Photo credits</a></h6>
 </section>
   </div>
 
@@ -126,20 +120,18 @@ image += '.jpg';
     </section>
   </div>
   
-<script type="text/javascript">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-3936326-3']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
+  ga('create', 'UA-3936326-3', 'jiaqili.com');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
 
 </script>
-
 
 </body>
 
