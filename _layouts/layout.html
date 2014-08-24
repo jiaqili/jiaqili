@@ -15,14 +15,9 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <!--
-  <link href="/css/up.css" rel="stylesheet">
-   --> 
+
+  <!-- Custom CSS on top of Bootstrap --> 
   <link href="/css/main.css" rel="stylesheet">
- 
-  <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif] -->
 
   <script language="JavaScript">
     var rand1 = Math.floor(Math.random() * 3);
@@ -83,7 +78,7 @@
     <section class="masthead">
       <div class="container" align="center">
 
-        <p>© 2014 Jiaqi Li.</p>
+        <p>© {{ site.time | date: "%Y" }} Jiaqi Li.</p>
 
       </div>
     </section>
@@ -95,7 +90,4 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!--
-<script src="/js/up.js"></script>
--->
 </html>
