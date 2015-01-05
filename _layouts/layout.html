@@ -78,7 +78,9 @@
     <section class="masthead">
       <div class="container" align="center">
 
-        <p>© {{ site.time | date: "%Y" }} Jiaqi Li.</p>
+        <p>© <script type="text/javascript">
+                document.write(new Date().getFullYear());
+              </script><noscript>{{ site.time | date: "%Y" }}</noscript> Jiaqi Li.</p>
 
       </div>
     </section>
